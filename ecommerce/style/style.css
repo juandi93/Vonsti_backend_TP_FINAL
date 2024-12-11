@@ -1,0 +1,124 @@
+:root {
+    --c-dark: #212529;
+    --c-body:#727272;
+    --transition:all 0.5s ease;
+
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.7;
+color: var(--c-body);
+}
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    transition: var(--transition);
+}
+a:hover{
+    color: skyblue;
+}
+
+img{
+    height: 100%;
+    width: auto;
+}
+
+.section-padding {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link active{
+    color: bisque;
+}
+
+/*HERO00*/
+
+#hero {
+    background: linear-gradient(#00000048,#000), url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-position: center;
+background-size: cover;
+}
+
+#nosotros {
+    background-color: black;
+}
+
+/* SECTION TITLE */
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+/* TARJETASSSS*/
+.pricing-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+.pricing-header {
+    padding: 20px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+}
+.pricing-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+.pricing-price {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.pricing-period {
+    font-size: 0.9rem;
+    color: #f1f1f1;
+}
+.pricing-body {
+    padding: 20px;
+}
+.pricing-feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pricing-feature-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+.pricing-footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+/*contenedor de las imagenes*/
+.image-container {
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.image-container img {
+    max-height: 100%; 
+    max-width: 100%; 
+    object-fit: cover; 
+}
